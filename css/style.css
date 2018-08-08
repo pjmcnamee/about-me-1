@@ -1,13 +1,18 @@
-h1 {
-    text-align: center;
+
+h1, h2 {
+    text-align: left;
     color: rgb(51, 52, 138);
-    font-size: 50px
+    font-size: 50px;
 }
 
+p {
+    color: rgb(51, 52, 138);
+}
 * {
     background: rgb(250, 245, 176);
 }
 img{
+    align-items: center;
     height: 50%;
     width: 50%;
 }
