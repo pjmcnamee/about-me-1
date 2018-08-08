@@ -3,7 +3,7 @@
 // Get the user's name
 var userName = prompt('Welcome to George\'s Fan Club! What is your name?');
 
-alert('Nice to have you here, ' + userName + '. I\'m going to ask you some questions about George. \(This is a yes or no question, please answer with y/n or yes/no.\)');
+alert('Hi there, ' + userName + '. I\'m going to ask you some questions about George. \(If it\'s a yes or no question, please answer with y/n or yes/no.\)');
 console.log(userName + ' was welcomed and asked their name and responded with ' + userName);
 
 // Ask them five yes or no questions with feedback
@@ -11,7 +11,7 @@ console.log(userName + ' was welcomed and asked their name and responded with ' 
 var answerOne = prompt('Is George older than 25 years old?').toLowerCase();
 
  if(answerOne === 'n' || answerOne === 'no') {
-    alert('You got it right');
+    alert('You\'re right! He hasn\'t even turned 25 yet!');
     console.log(userName + ' answered correctly and is a true and loyal fan');
  } else {
     alert('That\'s incorrect. I don\'t think you know enough about George.');
@@ -55,4 +55,29 @@ var answerFour = prompt('You\'re only a few questions away from joining the Geor
 if(answerFour === 'n' || answerFour === 'no') {
     alert('I don\'t care, you\'ve got some more coming!');
     console.log(userName + ' was asked if they can handle answering more questions and they couldn\'t hang');
+} else {
+    alert('Onward we shall go!');
+    console.log(userName + ' wants to continue on with more questions!');
+}
+
+var answerFive = prompt('Is George a software developer in the making?').toLowerCase();
+
+if(answerFive === 'y' || answerFive === 'yes') {
+    alert('You\'re absolutely right, ' + userName + '. He\'s getting his education through Code Fellows in downtown Seattle.');
+    console.log(userName + ' answered correctly and knows that George is learning code at Code Fellows');
+} else {
+    alert('You\'re wrong! He absolutely is! In fact, he\'s getting his education through Code Fellows in Seattle right now. I can\'t believe you didn\'t know that.');
+    console.log(userName + ' answered incorrectly and didn\'t know that George is currently learning to code');
+}
+    alert('Brace yourself. This is the final question!!!!!');
+    console.log(userName + ' is being told that there is one final question');
+
+var answerSix = prompt('Is there really a George Fan Club?').toLowerCase();
+
+if(answerSix === 'n' || answerSix === 'no') {
+    alert('You\'re right. There\'s no such thing, but you have one and guess what?! I\'m your biggest fan!');
+    console.log(userName + ' was correct that there is no George Fan Club but had no idea that the computer is their biggest fan');
+} else {
+    alert('I\'m sorry to disappoint you, there isn\'t one.. but please reach out to him and tell him how much you admire him. He would so appreciate that!');
+    console.log(userName + ' answered incorrectly and was told that there really isn\'t a George Fan Club');
 }
