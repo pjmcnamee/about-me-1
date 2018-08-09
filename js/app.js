@@ -16,7 +16,7 @@ if(answerOne === 'n' || answerOne === 'no') {
 } else {
   alert('That\'s incorrect. I don\'t think you know enough about George.');
   console.log(userName + ' answered incorrectly and was called out on his disloyalty as a fan');
-} 
+}
 var age = parseInt(prompt('Let me determine whether or not you\'re capable of answering harder questions. How old are you, ' + userName + '?'));
 
 if(age === 25) {
@@ -51,7 +51,7 @@ if(answerThree === 'y' || answerThree === 'yes') {
   console.log(userName + ' answered incorrectly and doesn\'t know where George lives.');
 }
 
-var answerFour = prompt('You\'re only a few questions away from joining the George Fan Club, ' + userName + '. Do you think you can handle it?').toLowerCase();
+var answerFour = prompt('You\'re only a few questions away from joining George\'s Fan Club, ' + userName + '. Do you think you can handle it?').toLowerCase();
 if(answerFour === 'n' || answerFour === 'no') {
   alert('I don\'t care, you\'ve got some more coming!');
   console.log(userName + ' was asked if they can handle answering more questions and they couldn\'t hang');
@@ -69,13 +69,15 @@ if(answerFive === 'y' || answerFive === 'yes') {
   alert('You\'re wrong! He absolutely is! In fact, he\'s getting his education through Code Fellows in Seattle right now. I can\'t believe you didn\'t know that.');
   console.log(userName + ' answered incorrectly and didn\'t know that George is currently learning to code');
 }
+// I'm adding the code that I've learned about the guessing a number and having it checked.
+
 alert('Brace yourself. This is the final question!!!!!');
 console.log(userName + ' is being told that there is one final question');
 
-var answerSix = prompt('Is there really a George Fan Club?').toLowerCase();
+var answerSeven = prompt('Is there really a George Fan Club?').toLowerCase();
 
-if(answerSix === 'n' || answerSix === 'no') {
-  alert('You\'re right. There\'s no such thing, but you have one and guess what?! I\'m your biggest fan!');
+if(answerSeven === 'n' || answerSeven === 'no') {
+  alert('You\'re right. There\'s no such thing, but you have a fan club and guess what?! I\'m your biggest fan!');
   console.log(userName + ' was correct that there is no George Fan Club but had no idea that the computer is their biggest fan');
 } else {
   alert('I\'m sorry to disappoint you, there isn\'t one.. but please reach out to him and tell him how much you admire him. He would so appreciate that!');
